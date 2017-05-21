@@ -4,7 +4,11 @@
   letter-spacing: 1px;
 }
 .heading-text-background {
-  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000;
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, 1px 0px 0 #000, -1px 0px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, 2px 0px 0 #000, -2px 0px 0 #000;
+}
+.heading-text-background2 {
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 0px 1px 0 #fff, 0px -1px 0 #fff, 1px 0px 0 #fff, -1px 0px 0 #fff, 2px 2px 0 #fff, -2px -2px 0 #fff, 0px 2px 0 #fff, 0px -2px 0 #fff, 2px 0px 0 #fff, -2px 0px 0 #fff;
+  font-weight: 700;
 }
 .body-font {
   font-family: 'Microsoft JhengHei', 'PMingLiU', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
@@ -52,7 +56,7 @@ h6 {
   letter-spacing: 1px;
 }
 p {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -119,7 +123,7 @@ p {
   }
   .navbar-default .navbar-header .navbar-brand {
     color: #fdcc52;
-    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, 1px 0px 0 #000, -1px 0px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, 2px 0px 0 #000, -2px 0px 0 #000;
   }
   .navbar-default .navbar-header .navbar-brand:hover,
   .navbar-default .navbar-header .navbar-brand:focus {
@@ -128,7 +132,7 @@ p {
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: #fdcc52;
-    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, 1px 0px 0 #000, -1px 0px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, 2px 0px 0 #000, -2px 0px 0 #000;
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
@@ -160,7 +164,7 @@ p {
   }
   .navbar-default.affix-top .nav > li > a,
   .navbar-default.affix-top .nav > li > a:focus {
-    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 0px 1px 0 #000, 0px -1px 0 #000, 1px 0px 0 #000, -1px 0px 0 #000, 2px 2px 0 #000, -2px -2px 0 #000, 0px 2px 0 #000, 0px -2px 0 #000, 2px 0px 0 #000, -2px 0px 0 #000;
   }
 }
 header {
@@ -193,7 +197,7 @@ header .header-content .header-content-inner {
 header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 50px;
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
@@ -227,7 +231,7 @@ header .device-container .screen img {
     width: 100%;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 35px;
+    font-size: 65px;
   }
   header .device-container {
     max-width: none;
@@ -237,7 +241,13 @@ header .device-container .screen img {
 }
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
+    font-size: 90px;
+  }
+  header .header-content .header-content-inner h2 {
     font-size: 50px;
+  }
+  header .header-content .header-content-inner h3 {
+    font-size: 40px;
   }
 }
 section {
@@ -486,6 +496,19 @@ footer ul li a.active {
   background-color: #fdcc52;
   border-color: #fdcc52;
 }
+.btn-join {
+  color: black;
+  border-color: white;
+  border: 1px solid;
+}
+.btn-join:hover,
+.btn-join:focus,
+.btn-join:active,
+.btn-join.active {
+  color: black;
+  background-color: #fdcc52;
+  border-color: #fdcc52;
+}
 .btn {
   font-family: 'Microsoft JhengHei', 'PMingLiU', 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
@@ -494,7 +517,8 @@ footer ul li a.active {
 }
 .btn-xl {
   padding: 15px 45px;
-  font-size: 11px;
+  font-size: 16px;
+  font-weight: 600;
 }
 ::-moz-selection {
   color: white;
